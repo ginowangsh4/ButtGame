@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF1493D91C8B98C500FA3381 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1493D81C8B98C500FA3381 /* AppDelegate.swift */; };
+		FF1493DB1C8B98C500FA3381 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1493DA1C8B98C500FA3381 /* GameScene.swift */; };
+		FF1493DD1C8B98C500FA3381 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FF1493DC1C8B98C500FA3381 /* GameScene.sks */; };
+		FF1493DF1C8B98C500FA3381 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF1493DE1C8B98C500FA3381 /* Images.xcassets */; };
+		FF1493E21C8B98C500FA3381 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF1493E01C8B98C500FA3381 /* MainMenu.xib */; };
+		FF1493EE1C8B98C600FA3381 /* ButtGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1493ED1C8B98C600FA3381 /* ButtGameTests.swift */; };
+		FF1493FC1C8BCB8E00FA3381 /* Slap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF1493FB1C8BCB8E00FA3381 /* Slap.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF1493E81C8B98C600FA3381 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF1493CB1C8B98C500FA3381 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF1493D21C8B98C500FA3381;
+			remoteInfo = ButtGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF1493D31C8B98C500FA3381 /* ButtGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ButtGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF1493D71C8B98C500FA3381 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF1493D81C8B98C500FA3381 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF1493DA1C8B98C500FA3381 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		FF1493DC1C8B98C500FA3381 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		FF1493DE1C8B98C500FA3381 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FF1493E11C8B98C500FA3381 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		FF1493E71C8B98C600FA3381 /* ButtGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ButtGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF1493EC1C8B98C600FA3381 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF1493ED1C8B98C600FA3381 /* ButtGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtGameTests.swift; sourceTree = "<group>"; };
+		FF1493FB1C8BCB8E00FA3381 /* Slap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Slap.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF1493D01C8B98C500FA3381 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF1493E41C8B98C600FA3381 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF1493CA1C8B98C500FA3381 = {
+			isa = PBXGroup;
+			children = (
+				FF1493D51C8B98C500FA3381 /* ButtGame */,
+				FF1493EA1C8B98C600FA3381 /* ButtGameTests */,
+				FF1493D41C8B98C500FA3381 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF1493D41C8B98C500FA3381 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF1493D31C8B98C500FA3381 /* ButtGame.app */,
+				FF1493E71C8B98C600FA3381 /* ButtGameTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF1493D51C8B98C500FA3381 /* ButtGame */ = {
+			isa = PBXGroup;
+			children = (
+				FF1493FB1C8BCB8E00FA3381 /* Slap.mp3 */,
+				FF1493D81C8B98C500FA3381 /* AppDelegate.swift */,
+				FF1493DA1C8B98C500FA3381 /* GameScene.swift */,
+				FF1493DC1C8B98C500FA3381 /* GameScene.sks */,
+				FF1493DE1C8B98C500FA3381 /* Images.xcassets */,
+				FF1493E01C8B98C500FA3381 /* MainMenu.xib */,
+				FF1493D61C8B98C500FA3381 /* Supporting Files */,
+			);
+			path = ButtGame;
+			sourceTree = "<group>";
+		};
+		FF1493D61C8B98C500FA3381 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF1493D71C8B98C500FA3381 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF1493EA1C8B98C600FA3381 /* ButtGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF1493ED1C8B98C600FA3381 /* ButtGameTests.swift */,
+				FF1493EB1C8B98C600FA3381 /* Supporting Files */,
+			);
+			path = ButtGameTests;
+			sourceTree = "<group>";
+		};
+		FF1493EB1C8B98C600FA3381 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF1493EC1C8B98C600FA3381 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF1493D21C8B98C500FA3381 /* ButtGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF1493F11C8B98C600FA3381 /* Build configuration list for PBXNativeTarget "ButtGame" */;
+			buildPhases = (
+				FF1493CF1C8B98C500FA3381 /* Sources */,
+				FF1493D01C8B98C500FA3381 /* Frameworks */,
+				FF1493D11C8B98C500FA3381 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ButtGame;
+			productName = ButtGame;
+			productReference = FF1493D31C8B98C500FA3381 /* ButtGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF1493E61C8B98C600FA3381 /* ButtGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF1493F41C8B98C600FA3381 /* Build configuration list for PBXNativeTarget "ButtGameTests" */;
+			buildPhases = (
+				FF1493E31C8B98C600FA3381 /* Sources */,
+				FF1493E41C8B98C600FA3381 /* Frameworks */,
+				FF1493E51C8B98C600FA3381 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF1493E91C8B98C600FA3381 /* PBXTargetDependency */,
+			);
+			name = ButtGameTests;
+			productName = ButtGameTests;
+			productReference = FF1493E71C8B98C600FA3381 /* ButtGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF1493CB1C8B98C500FA3381 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Rifle Zhang";
+				TargetAttributes = {
+					FF1493D21C8B98C500FA3381 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					FF1493E61C8B98C600FA3381 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = FF1493D21C8B98C500FA3381;
+					};
+				};
+			};
+			buildConfigurationList = FF1493CE1C8B98C500FA3381 /* Build configuration list for PBXProject "ButtGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF1493CA1C8B98C500FA3381;
+			productRefGroup = FF1493D41C8B98C500FA3381 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF1493D21C8B98C500FA3381 /* ButtGame */,
+				FF1493E61C8B98C600FA3381 /* ButtGameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF1493D11C8B98C500FA3381 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF1493DD1C8B98C500FA3381 /* GameScene.sks in Resources */,
+				FF1493DF1C8B98C500FA3381 /* Images.xcassets in Resources */,
+				FF1493FC1C8BCB8E00FA3381 /* Slap.mp3 in Resources */,
+				FF1493E21C8B98C500FA3381 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF1493E51C8B98C600FA3381 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF1493CF1C8B98C500FA3381 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF1493DB1C8B98C500FA3381 /* GameScene.swift in Sources */,
+				FF1493D91C8B98C500FA3381 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF1493E31C8B98C600FA3381 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF1493EE1C8B98C600FA3381 /* ButtGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF1493E91C8B98C600FA3381 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF1493D21C8B98C500FA3381 /* ButtGame */;
+			targetProxy = FF1493E81C8B98C600FA3381 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF1493E01C8B98C500FA3381 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF1493E11C8B98C500FA3381 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF1493EF1C8B98C600FA3381 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF1493F01C8B98C600FA3381 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FF1493F21C8B98C600FA3381 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ButtGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FF1493F31C8B98C600FA3381 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ButtGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FF1493F51C8B98C600FA3381 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ButtGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ButtGame.app/Contents/MacOS/ButtGame";
+			};
+			name = Debug;
+		};
+		FF1493F61C8B98C600FA3381 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ButtGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ButtGame.app/Contents/MacOS/ButtGame";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF1493CE1C8B98C500FA3381 /* Build configuration list for PBXProject "ButtGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF1493EF1C8B98C600FA3381 /* Debug */,
+				FF1493F01C8B98C600FA3381 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF1493F11C8B98C600FA3381 /* Build configuration list for PBXNativeTarget "ButtGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF1493F21C8B98C600FA3381 /* Debug */,
+				FF1493F31C8B98C600FA3381 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF1493F41C8B98C600FA3381 /* Build configuration list for PBXNativeTarget "ButtGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF1493F51C8B98C600FA3381 /* Debug */,
+				FF1493F61C8B98C600FA3381 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF1493CB1C8B98C500FA3381 /* Project object */;
+}
